@@ -1,9 +1,5 @@
-/* ==========================================================
-   API configuration
-   ========================================================== */
-// Put your OpenWeatherMap API key here. Get a free one at
-// https://openweathermap.org/api — sign up, then find it under "API keys."
-const API_KEY = "f6180c20fb0bc00f9b607137dd48748a";        // 👈 PUT YOUR API KEY HERE, between the quotes
+
+const API_KEY = "f6180c20fb0bc00f9b607137dd48748a"; 
 
 const CURRENT_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
 const FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast";
@@ -344,7 +340,5 @@ function showError(message) {
   errorEl.classList.add('visible');
 }
 
-/* ==========================================================
-   Initial load — show a default city so the page isn't empty
-   ========================================================== */
+
 getWeather('London');
